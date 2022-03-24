@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { GemeaPage } from './gemea.page';
+import { GemeaPage } from './saxofone.page';
 
 const routes: Routes = [
   {

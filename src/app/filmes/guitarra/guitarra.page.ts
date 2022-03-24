@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-aranha',
-  templateUrl: './aranha.page.html',
-  styleUrls: ['./aranha.page.scss'],
+  selector: 'app-guitarra',
+  templateUrl: './guitarra.page.html',
+  styleUrls: ['./guitarra.page.scss'],
 })
 export class AranhaPage implements OnInit {
 

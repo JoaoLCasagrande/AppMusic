@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { AranhaPageRoutingModule } from './aranha-routing.module';
+import { EspacoPageRoutingModule } from './clarinete-routing.module';
 
-import { AranhaPage } from './aranha.page';
+import { EspacoPage } from './clarinete.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AranhaPageRoutingModule
+    EspacoPageRoutingModule
   ],
-  declarations: [AranhaPage]
+  declarations: [EspacoPage]
 })
-export class AranhaPageModule {}
+export class EspacoPageModule {}

@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { AranhaPage } from './aranha.page';
+import { AranhaPage } from './guitarra.page';
 
 describe('AranhaPage', () => {
   let component: AranhaPage;

@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { GemeaPageRoutingModule } from './gemea-routing.module';
+import { GemeaPageRoutingModule } from './saxofone-routing.module';
 
-import { GemeaPage } from './gemea.page';
+import { GemeaPage } from './saxofone.page';
 
 @NgModule({
   imports: [

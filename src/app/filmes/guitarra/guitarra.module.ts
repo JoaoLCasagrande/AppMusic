@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { EspacoPageRoutingModule } from './espaco-routing.module';
+import { AranhaPageRoutingModule } from './guitarra-routing.module';
 
-import { EspacoPage } from './espaco.page';
+import { AranhaPage } from './guitarra.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    EspacoPageRoutingModule
+    AranhaPageRoutingModule
   ],
-  declarations: [EspacoPage]
+  declarations: [AranhaPage]
 })
-export class EspacoPageModule {}
+export class AranhaPageModule {}

@@ -11,20 +11,20 @@ const routes: Routes = [
     loadChildren: () => import('./filmes/trombone/trombone.module').then( m => m.SenhordosaneisPageModule)
   },
   {
-    path: 'gemea',
-    loadChildren: () => import('./filmes/gemea/gemea.module').then( m => m.GemeaPageModule)
+    path: 'saxofone',
+    loadChildren: () => import('./filmes/saxofone/saxofone.module').then( m => m.GemeaPageModule)
   },
   {
-    path: 'passaro',
+    path: 'bateria',
     loadChildren: () => import('./filmes/bateria/bateria.module').then( m => m.PassaroPageModule)
   },
   {
-    path: 'espaco',
-    loadChildren: () => import('./filmes/espaco/espaco.module').then( m => m.EspacoPageModule)
+    path: 'clarinete',
+    loadChildren: () => import('./filmes/clarinete/clarinete.module').then( m => m.EspacoPageModule)
   },
   {
-    path: 'aranha',
-    loadChildren: () => import('./filmes/aranha/aranha.module').then( m => m.AranhaPageModule)
+    path: 'guitarra',
+    loadChildren: () => import('./filmes/guitarra/guitarra.module').then( m => m.AranhaPageModule)
   },
 
 
