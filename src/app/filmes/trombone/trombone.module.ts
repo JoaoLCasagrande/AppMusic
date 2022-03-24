@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { SenhordosaneisPageRoutingModule } from './senhordosaneis-routing.module';
+import { SenhordosaneisPageRoutingModule } from './trombone-routing.module';
 
-import { SenhordosaneisPage } from './senhordosaneis.page';
+import { SenhordosaneisPage } from './trombone.page';
 
 @NgModule({
   imports: [

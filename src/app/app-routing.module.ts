@@ -7,15 +7,16 @@ const routes: Routes = [
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
   },
   {
-    path: 'senhordosaneis',
-    loadChildren: () => import('./filmes/senhordosaneis/senhordosaneis.module').then( m => m.SenhordosaneisPageModule)
-  },  {
+    path: 'trombone',
+    loadChildren: () => import('./filmes/trombone/trombone.module').then( m => m.SenhordosaneisPageModule)
+  },
+  {
     path: 'gemea',
     loadChildren: () => import('./filmes/gemea/gemea.module').then( m => m.GemeaPageModule)
   },
   {
     path: 'passaro',
-    loadChildren: () => import('./filmes/passaro/passaro.module').then( m => m.PassaroPageModule)
+    loadChildren: () => import('./filmes/bateria/bateria.module').then( m => m.PassaroPageModule)
   },
   {
     path: 'espaco',

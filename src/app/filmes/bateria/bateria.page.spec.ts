@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { PassaroPage } from './passaro.page';
+import { PassaroPage } from './bateria.page';
 
 describe('PassaroPage', () => {
   let component: PassaroPage;

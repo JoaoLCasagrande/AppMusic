@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { PassaroPageRoutingModule } from './passaro-routing.module';
+import { PassaroPageRoutingModule } from './bateria-routing.module';
 
-import { PassaroPage } from './passaro.page';
+import { PassaroPage } from './bateria.page';
 
 @NgModule({
   imports: [
