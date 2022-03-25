@@ -25,8 +25,18 @@ const routes: Routes = [
   {
     path: 'guitarra',
     loadChildren: () => import('./filmes/guitarra/guitarra.module').then( m => m.AranhaPageModule)
+  },  {
+    path: 'do',
+    loadChildren: () => import('./claves/do/do.module').then( m => m.DoPageModule)
   },
-
+  {
+    path: 'fa',
+    loadChildren: () => import('./claves/fa/fa.module').then( m => m.FaPageModule)
+  },
+  {
+    path: 'sol',
+    loadChildren: () => import('./claves/sol/sol.module').then( m => m.SolPageModule)
+  },
 
 ];
 @NgModule({
