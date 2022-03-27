@@ -1,17 +1,49 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Claves
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-list>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+    <ion-item routerLink="/do" lines="full">
+      <img src="https://www.supermundo.com.br/wp-content/uploads/2020/09/clave-de-do.png" alt="nao tem foto" class="inst">
+      <ion-label class ="ion-text-wrap">
+        <div>
+          <h3>Dó</h3>
+
+          <ion-badge color="dark" class="tipo">Clave de Dó</ion-badge>
+
+        </div>
+      </ion-label>
+    </ion-item>
+
+    <ion-item routerLink="/fa" lines="full">
+      <img src="https://i0.wp.com/musicalleizer.com.br/wp-content/uploads/2011/06/ClaveFa.gif?resize=236%2C236&ssl=1" alt="nao tem foto" class="inst">
+      <ion-label class ="ion-text-wrap">
+        <div>
+          <h3>Fá</h3>
+
+          <ion-badge color="dark" class="tipo">Clave de Fá</ion-badge>
+
+        </div>
+      </ion-label>
+    </ion-item>
+
+    <ion-item routerLink="/sol" lines="full">
+      <img src="https://svgsilh.com/svg_v2/1414108.svg" alt="nao tem foto" class="inst">
+      <ion-label class ="ion-text-wrap">
+        <div>
+          <h3>Sol</h3>
+
+          <ion-badge color="dark" class="tipo">Clave de Sol</ion-badge>
+
+        </div>
+      </ion-label>
+    </ion-item>
+
+  </ion-list>
 </ion-content>

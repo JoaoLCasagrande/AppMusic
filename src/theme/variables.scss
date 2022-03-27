@@ -4,12 +4,12 @@
 /** Ionic CSS Variables **/
 :root {
   /* cinza */
-  --ion-color-cinza: #DCDCDC;
-  --ion-color-cinza-rgb: 220, 220, 220;
+  --ion-color-cinza: #555555;
+  --ion-color-cinza-rgb: 85, 85, 85;
   --ion-color-cinza-contrast: #000000;
   --ion-color-cinza-contrast-rgb: 0, 0, 0;
-  --ion-color-cinza-shade: #dcdcdc;
-  --ion-color-cinza-tint: #dcdcdc;
+  --ion-color-cinza-shade: #3b3b3b;
+  --ion-color-cinza-tint: #888888;
 
   /** primary **/
   --ion-color-primary: #3880ff;
@@ -60,8 +60,8 @@
   --ion-color-danger-tint: #ed576b;
 
   /** dark **/
-  --ion-color-dark: #222428;
-  --ion-color-dark-rgb: 34, 36, 40;
+  --ion-color-dark: #000;
+  --ion-color-dark-rgb: 0, 0, 0;
   --ion-color-dark-contrast: #ffffff;
   --ion-color-dark-contrast-rgb: 255, 255, 255;
   --ion-color-dark-shade: #1e2023;

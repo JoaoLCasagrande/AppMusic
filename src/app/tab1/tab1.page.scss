@@ -4,16 +4,18 @@
 
 ion-title{
   text-align: center;
+  color: #000;
+  font-size: 22px;
 }
 
 h3{
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
+  color: #000;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-
-
-.filme{
+.inst{
   height: 150px;
   width: 100px;
   margin-right: 10px;
@@ -22,8 +24,11 @@ h3{
 
 .tipo{
   font-size: 20px;
+  color: #ff0000;
+  padding: 6px;
 }
 
 h3{
   font-size: 30px;
 }
+

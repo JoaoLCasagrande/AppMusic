@@ -1,9 +1,11 @@
 ion-title{
   text-align: center;
+  font-size: 22px;
 }
 
 .foto{
   padding: 5px;
+  border: solid 3px #000;
 }
 
 h1{
@@ -30,12 +32,13 @@ ion-badge{
 
 .fam{
   font-size: 20px;
-  color: #830303;
-  border: solid 3px #830303;
+  color: #000;
+  font-weight: bold;
+  border: solid 3px #000;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   padding: 2.5px;
-  margin-right: 80px;
+  margin-right: 50px;
   text-align: center;
 }
 
